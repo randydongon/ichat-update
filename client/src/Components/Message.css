@@ -1,0 +1,130 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.messages__message {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+  width: fit-content;
+}
+.message {
+  padding: 5px;
+  margin: 5px;
+  width: fit-content;
+}
+.message_card {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  color: white;
+  width: fit-content;
+  /* text-align: right !important; */
+}
+.message_userCard {
+  display: flex !important;
+  background-color: #e1f5fe !important;
+  padding: 0.3rem 1rem !important;
+  color: #000 !important;
+  /* border-radius: 1.5rem !important; */
+  border-top-right-radius: 0.8rem;
+  border-bottom-left-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  text-align: right;
+  justify-content: right !important;
+  margin-left: auto;
+  width: fit-content;
+
+  margin-left: 5rem;
+}
+.message_guestCard {
+  display: flex !important;
+  background: #eee !important;
+  padding: 0.3rem 1rem !important;
+  /* border-radius: 1.5rem !important; */
+  color: black !important;
+  flex-wrap: wrap !important;
+  border-top-right-radius: 0.8rem;
+  border-bottom-right-radius: 0.8rem;
+  border-top-left-radius: 0.8rem;
+  padding: 1rem;
+  margin-right: 5rem;
+  width: fit-content;
+}
+.text_message {
+  display: flex;
+  text-align: left;
+  /* padding: 0.5rem 0.5rem !important; */
+  font-size: 1rem;
+  /* flex-wrap: wrap; */
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  letter-spacing: normal;
+  word-wrap: normal;
+  line-height: 1.6em;
+}
+/* input[type="text"] {
+  word-wrap: break-word !important;
+  word-break: break-all !important;
+  height: 80px;
+} */
+p {
+  display: block !important;
+  word-wrap: break-word !important;
+  word-break: break-all !important;
+  width: fit-content;
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  letter-spacing: normal;
+}
+
+.message__content {
+  display: flex;
+  flex-wrap: wrap !important;
+  word-break: break-all !important;
+  width: fit-content;
+  /* padding: 1rem !important; */
+
+  /* flex-wrap: wrap; */
+
+  width: 100%;
+}
+
+.message__image {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100px;
+  height: 80px;
+  flex-direction: column;
+  width: 150px;
+  cursor: pointer;
+}
+
+.div__imglinkuser {
+  display: flex;
+  justify-content: right;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: right;
+  align-items: flex-end;
+  /* margin: 1rem 0; */
+}
+.div__imglinkguest {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: left;
+  align-items: flex-start;
+
+  /* margin: 1rem 0; */
+}
+.div__link {
+  padding-top: 1rem;
+}

@@ -1,0 +1,133 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #aaa;
+  overflow: hidden !important;
+  box-sizing: border-box;
+}
+.gcmodal {
+  display: flex;
+  position: fixed;
+  background-color: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.3);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.gcmodal__header {
+  display: flex;
+
+  background-color: #e74b3b;
+  justify-content: space-between;
+
+  width: 31.5%;
+}
+.gcmodal__body {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 100%;
+  height: 70% !important;
+
+  box-sizing: border-box;
+}
+
+.gcmodal__form {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.gcmodal__form input[type="text"] {
+  display: flex;
+  width: 100%;
+  padding: 1rem 1rem;
+  margin: 0 4rem;
+  text-align: center;
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #eee;
+}
+
+.gcmodal__footer {
+  display: flex;
+  height: fit-content !important;
+  padding: 0 1em;
+  margin-left: auto;
+  margin-top: 3rem;
+  /* background-color: #e74b3b; */
+}
+.gcsubmit__button {
+  margin-left: auto !important;
+}
+
+.gcbutton__gray {
+  color: #6e7582 !important;
+  font-size: 2rem !important;
+}
+.gcbutton_icon {
+  font-size: 2rem !important;
+  color: #e74b3b;
+}
+
+.gcmodal__image {
+  box-sizing: border-box;
+  position: relative;
+  flex-direction: column;
+  padding: 1rem;
+  height: 6em;
+}
+.gcmodal__avatar {
+  width: 5rem !important;
+  height: 5rem !important;
+  border-radius: 50%;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.gcclose__image {
+  float: right;
+}
+
+.menu__Image {
+  box-sizing: border-box;
+}
+
+.gcgroup__image {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  box-sizing: border-box;
+  /* background-color: #e6d5b6; */
+  height: 6rem;
+}
+
+@media (max-width: 600px) {
+  .gcmodal__header {
+    width: 100%;
+    padding: 0 1em;
+    box-sizing: border-box;
+  }
+  .gcmodal__body {
+    background-color: #fff;
+    width: 100%;
+    height: 100% !important;
+    box-sizing: border-box;
+  }
+  .gcmodal__footer {
+    height: fit-content;
+    margin-left: auto;
+  }
+  .gcbutton_icon {
+    color: #6e7582;
+    font-size: 2rem !important;
+  }
+}
